@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "reddit": "node ./src/reddit.js",
-    "hn": "node ./src/hacker-news.js"
+    "hn": "node ./src/hacker-news.js",
+    "buzz": "node ./src/buzzfeed.js"
   },
   "keywords": [],
   "author": "",

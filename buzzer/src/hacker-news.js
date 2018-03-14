@@ -2,7 +2,7 @@ const request = require('request')
 const cheerio = require('cheerio')
 const fs = require('fs')
 
-request("https://news.ycombinator.com/news", function(err, res, body) {
+request('https://news.ycombinator.com/news', function(err, res, body) {
   if(err) {
     console.error("err: " + err)
     process.exit(1)
