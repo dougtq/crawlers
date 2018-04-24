@@ -1,0 +1,24 @@
+{
+  "name": "thal",
+  "version": "1.0.0",
+  "description": "Webcrawler with Google's puppeteer",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "webcrawler",
+    "crawler",
+    "spider"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^1.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1"
+  }
+}
